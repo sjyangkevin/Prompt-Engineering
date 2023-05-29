@@ -1,0 +1,10 @@
+Find the value of x in the equation 3x - 9 = 27.
+The value of x is 12.
+Find the value of x in the equation 2x + 5 = 15.
+The value of x is 5.
+Find the value of x in the equation 5x = 15.
+The value of x is 3.
+Find the value of x in the equation 8 + x = 10.
+The value of x is 2.
+Find the value of x in the equation 2x / 2 = 10.
+The value of x is 10.
