@@ -26,13 +26,14 @@ if __name__ == "__main__":
     
     question="Do dolphins swim in packs because of safety?"
 
+    # asking the question without using any knowledge
     response  = predict(
         model=model,
         prompt=question,
     )
-
     print(response)
 
+    # knowledge generation
     prompt = load_prompt("prompts/generated_knowledge_qa.txt") \
         .format(question=question)
     
@@ -42,7 +43,7 @@ if __name__ == "__main__":
     prompt = """
     {knowledge}
     {question}
-    """.format(knowledge=knowledge, question=question).lstrip()
+    """.format(knowledge=knowledge, question=question)
 
     response  = predict(
         model=model,
