@@ -1,4 +1,4 @@
-# Prompt Engineering with Palm API
+# Prompt Engineering with PaLM API
 This repository contains the sample code for experimenting with various prompting methods, including the following:
 
   1. Zero-shot Prompting
