@@ -1,0 +1,4 @@
+prompt:
+Classify the text into neutral, negative or positive.
+Text: I really like the new design of your website!
+positive

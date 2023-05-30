@@ -1,0 +1,61 @@
+prompt:
+Classify the email as REGULAR (0) or SPAM (1). Let's think step by step.
+The result should be a JSON object. 
+The JSON object has two properties ["class", "explanation"].
+The "class" is an integer field, 0 indicates REGULAR, and 1 indicates SPAM.
+The "explanation" should be the reasoning steps.
+The property name in the JSON object should be enclosed in double quotes.
+
+Hello,
+
+We've updated our login credential policy. 
+Please confirm your account by logging into Google Docs via the link.
+
+IT Department
+
+{
+    "class": 1,
+    "explanation": "The email is asking for sensitive information such as login credentials. It is likely to be a phishing email."
+}
+
+prompt:
+Classify the email as REGULAR (0) or SPAM (1). Let's think step by step.
+The result should be a JSON object. 
+The JSON object has two properties ["class", "explanation"].
+The "class" is an integer field, 0 indicates REGULAR, and 1 indicates SPAM.
+The "explanation" should be the reasoning steps.
+The property name in the JSON object should be enclosed in double quotes.
+
+Hello,
+
+We've updated our login credential policy. 
+Please confirm your account by logging into Google Docs via the link.
+
+IT Department
+
+{
+    "class": 1,
+    "explanation": "This email is a phishing attempt because it tries to get the user to click on a link by pretending to be from the IT department."
+}
+
+prompt:
+Classify the email as REGULAR (0) or SPAM (1). Let's think step by step.
+The result should be a JSON object. 
+The JSON object has two properties ["class", "explanation"].
+The "class" is an integer field, 0 indicates REGULAR, and 1 indicates SPAM.
+The "explanation" should be the reasoning steps.
+The property name in the JSON object should be enclosed in double quotes.
+
+Hello,
+
+We've updated our login credential policy. 
+Please confirm your account by logging into Google Docs via the link.
+
+IT Department
+
+{
+    "class": 0,
+    "explanation": "This email is a legitimate email from the IT Department of the company. It is not spam."
+}
+
+The email is: SPAM

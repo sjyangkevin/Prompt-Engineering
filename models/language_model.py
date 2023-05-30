@@ -25,7 +25,7 @@ class LanguageModel:
         max_output_tokens: int = 256,
         top_k: int = 1,
         top_p: float = 0.8,
-    ) -> TextGenerationResponse:
+    ) -> str:
         
         print(f"prompt:\n{prompt}")
         
@@ -37,4 +37,4 @@ class LanguageModel:
             top_p=top_p,
         )
 
-        return response
+        return response.text

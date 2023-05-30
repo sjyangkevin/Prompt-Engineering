@@ -1,0 +1,6 @@
+Classify the email as REGULAR (0) or SPAM (1). Let's think step by step.
+The result should be a JSON object. 
+The JSON object has two properties ["class", "explanation"].
+The "class" is an integer field, 0 indicates REGULAR, and 1 indicates SPAM.
+The "explanation" should be the reasoning steps.
+The property name in the JSON object should be enclosed in double quotes.
