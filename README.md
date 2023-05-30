@@ -34,7 +34,7 @@ defined in the `.env` file. This isolates the project setup and credentials with
 
 ### Step 5 - Run script
 
-To execute an example, you can run the following command:
+To execute an example, you can run the script, as an example shown below:
 
 ```
 python prompt_engineering/chain_of_thought.py
