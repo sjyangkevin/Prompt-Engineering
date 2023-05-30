@@ -9,6 +9,8 @@ This repository contains the sample code for experimenting with various promptin
 
 The project is setup based on the Google's [PaLM API](https://cloud.google.com/vertex-ai/docs/generative-ai/learn/overview).
 
+I also wrote a [blog post](https://medium.com/@kevinsjy997/fundamental-prompt-engineering-guide-with-vertex-ai-palm-api-c9f307413d85) on Medium to demonstrate the result.
+
 # Project Setup
 
 ### Step 1 - Create a credential JSON file on Google Cloud
